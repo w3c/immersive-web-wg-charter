@@ -73,7 +73,7 @@
       <!-- delete PROPOSED after AC review completed -->
 
       <p>
-        <em>Status: this is a draft charter for a possible W3C Immersive Web Working Group, provided for discussion, without any formal standing.</em>
+        <em>Status: this is a draft recharter for the W3C Immersive Web Working Group, provided for discussion, without any formal standing.</em>
       </p>
 
       <p class="mission">
@@ -160,7 +160,7 @@
           XR hardware such as the Oculus Rift,
           the Samsung GearVR, the HTC Vive, and Windows Mixed Reality
           headsets and sensors as well as mobile handheld devices and standalone 
-          headsets such as the Oculus Go and Lenovo Mirage AR.
+          headsets such as the Oculus Quest and Lenovo Mirage AR.
           The WG will develop APIs to enable the creation of XR web experiences 
           that are embeddable in the Web of today, enabling progressive enhancement 
           of existing sites.
@@ -259,6 +259,46 @@
               <p><b>Adopted Working Draft:</b> <a href="https://immersive-web.github.io/dom-overlays/">WebXR DOM Overlays Module</a></p>
             </dd>
 
+            <dt id="webxr-lighting-estimation" class="spec">WebXR Lighting Estimation Module</dt>
+            <dd>
+              <p>This specification enables developers to render augmented reality content that reacts to real world lighting with the WebXR Device API and the WebXR AR Module.</p>
+              <p class="draft-status"><b>Draft state:</b> Adopted from <a href="https://www.w3.org/community/immersive-web/">the Immersive Web CG</a></p>
+              <p class="milestone"><b>Expected completion:</b> <i class="todo">[Q1–4 yyyy]</i></p>
+              <p><b>Adopted Working Draft:</b> <a href="https://github.com/immersive-web/lighting-estimation">WebXR Lighting Estimation Proposal</a></p>
+            </dd>
+
+            <dt id="webxr-hand-input" class="spec">WebXR Hand Input Module</dt>
+            <dd>
+              <p>This specification defines a method for enabling hand input to be used with the WebXR Device API.</p>
+              <p class="draft-status"><b>Draft state:</b> Adopted from <a href="https://www.w3.org/community/immersive-web/">the Immersive Web CG</a></p>
+              <p class="milestone"><b>Expected completion:</b> <i class="todo">[Q1–4 yyyy]</i></p>
+              <p><b>Adopted Working Draft:</b> <a href="https://github.com/immersive-web/webxr-hands-input">WebXR Hand Input Proposal</a></p>
+            </dd>
+
+            <dt id="webxr-real-world-geometry" class="spec">WebXR Real World Geometry Module</dt>
+            <dd>
+              <p>This specification enables access to real world geometry like planes and meshes to be used with the WebXR AR Module.</p>
+              <p class="draft-status"><b>Draft state:</b> Adopted from <a href="https://www.w3.org/community/immersive-web/">the Immersive Web CG</a></p>
+              <p class="milestone"><b>Expected completion:</b> <i class="todo">[Q1–4 yyyy]</i></p>
+              <p><b>Adopted Working Draft:</b> <a href="https://github.com/immersive-web/real-world-geometry">WebXR Real World Geometry Proposal</a></p>
+            </dd>
+
+            <dt id="webxr-anchors" class="spec">NOT FINAL: WebXR Anchors Module</dt>
+            <dd>
+              <p>This specification enables users of the WebXR Device API to specify poses in the world that need to be updated to correctly reflect the evolving understanding of the world, such that the poses remain aligned with the same place in the physical world.</p>
+              <p class="draft-status"><b>Draft state:</b> Adopted from <a href="https://www.w3.org/community/immersive-web/">the Immersive Web CG</a></p>
+              <p class="milestone"><b>Expected completion:</b> <i class="todo">[Q1–4 yyyy]</i></p>
+              <p><b>Adopted Working Draft:</b> <a href="https://github.com/immersive-web/anchors">WebXR Anchors Proposal</a></p>
+            </dd>
+
+            <dt id="webxr-hit-test" class="spec">NOT FINAL: WebXR Layers</dt>
+            <dd>
+              <p>This specification defines methods for manipulating composition layers used with the WebXR Device API.</p>
+              <p class="draft-status"><b>Draft state:</b> Adopted from <a href="https://www.w3.org/community/immersive-web/">the Immersive Web CG</a></p>
+              <p class="milestone"><b>Expected completion:</b> <i class="todo">[Q1–4 yyyy]</i></p>
+              <p><b>Adopted Working Draft:</b> <a href="https://github.com/immersive-web/layers">WebXR Layers Proposal</a></p>
+            </dd>
+
               </dl>
 
 
@@ -272,6 +312,9 @@
             Other non-normative documents may be created such as:
           </p>
           <ul>
+            <li>A <a href="https://github.com/immersive-web/webxr-input-profiles">registry of WebXR Gamepad assets, source library and schema</a>.</li>
+            <li>A <a href="https://github.com/immersive-web/webxr-test-api">common backend functionality simulation to enable Web Platform Tests.</a>.</li>
+            <li>A <a href="https://github.com/immersive-web/webxr-polyfill">polyfill of WebXR Device API VR functionality and WebXR Gamepad Module for browsers than support WebVR 1.1, or mobile devices with no WebVR/WebXR support.</a>.</li>
             <li>Use case and requirement documents;</li>
             <li>Test suite and implementation report for the specification;</li>
             <li>Primer or Best Practice documents to support web developers when designing applications.</li>
