@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>[DRAFT] Immersive Web Working Group Charter</title>
+    <title>Immersive Web Working Group Charter</title>
 
     <link rel="stylesheet" href="https://www.w3.org/2005/10/w3cdoc.css" type="text/css" media="screen">
     <link rel="stylesheet" type="text/css" href="https://www.w3.org/OldGuide/pubrules-style.css">
@@ -22,6 +22,7 @@
         background: yellow;
       }
 
+/*
       ul.out-of-scope > li {
         font-weight: bold;
       }
@@ -29,6 +30,7 @@
       ul.out-of-scope > li > ul > li{
         font-weight: normal;
       }
+*/
 
       .issue {
         background: cornsilk;
@@ -69,12 +71,7 @@
 
 
     <main>
-      <h1 id="title">[DRAFT] Immersive Web Working Group Charter</h1>
-      <!-- delete PROPOSED after AC review completed -->
-
-      <p>
-        <em>Status: this is a draft recharter for the W3C Immersive Web Working Group, provided for discussion, without any formal standing.</em>
-      </p>
+      <h1 id="title">Immersive Web Working Group Charter</h1>
 
       <p class="mission">
         The <strong>mission</strong> of the <a href="https://www.w3.org/immersive-web/">Immersive Web Working Group</a> is to help bring high-performance Virtual Reality (VR) and Augmented Reality (AR) (collectively known as XR) to the open Web via APIs to interact with XR devices and sensors in browsers.
@@ -105,7 +102,7 @@
               End date
             </th>
             <td>
-              <i>1 June 2022</i>
+              1 June 2022
             </td>
           </tr>
 
@@ -164,18 +161,15 @@
           of existing sites.
         </p>
         <p>
+          A new generation of head-mounted displays and environment sensing capabilities on mobile devices are enabling augmented and virtual reality (collectively known as XR) to emerge as a critical field of evolution for human-machine interactions. Due to its inherent low friction and support for ephemeral experiences, the Web provides a promising ecosystem for the creation, distribution, and experiencing of XR content, applications, and services.
+        </p>
+        <p>
           The <strong>scope</strong> of the Immersive Web Working Group charter is to
           define APIs which:
         </p>
         <ul>
-          <li>Detect available XR devices and sensors.
-          </li>
-          <li>Query XR devices for device-specific capabilities.
-          </li>
-          <li>Receive updated information about the device's position and orientation over time.
-          </li>
-          <li>Receive updated information about the device's environment.
-          </li>
+          <li>Detect the UA's capability to render XR scenes and report XR sensor values, including the device's position and orientation over time.</li>
+          <li>Query the ability to support specific capabilities.</li>
           <li>Present imagery to the device at the device's native frame rate, using the device’s position and orientation over time to provide an immersive experience.
           </li>
           <li>Provide information about XR-specific input, including tracked controller state and hand gesture.
@@ -210,7 +204,7 @@
             Normative Specifications
           </h3>
           <p>
-            The Working Group will deliver the following W3C normative specifications.  All work is expected to be incubated in the Community Group first.
+            The Working Group will deliver the following W3C normative specifications. 
           </p>
           <dl>
 
@@ -248,6 +242,14 @@
               <p class="milestone"><b>Expected completion:</b> <i>Q2 2021</i></p>
               <p><b>Adopted Working Draft:</b> <a href="https://immersive-web.github.io/hit-test/">WebXR Hit Test Module</a></p>
             </dd>
+
+          </dl>
+
+          <p>
+            The Working Group also intends to work on the following Recommendation-Track deliverables, although it recognizes these Recommendations may not be completed before the end of this charter period. All work is expected to be incubated in <a href="https://www.w3.org/community/immersive-web/">the Immersive Web Community Group</a> first. These deliverables are in rough priority order as of the start of the charter period, although the Chairs may reprioritize based on the consensus of the Working Group during the charter period.
+          </p>
+
+          <dl>
 
             <dt id="webxr-dom-overlays" class="spec">WebXR DOM Overlays Module</dt>
             <dd>
